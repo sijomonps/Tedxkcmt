@@ -93,6 +93,7 @@
     text-align: center;
     padding: 0 20px;
     background-image: url(bg.jpg);
+    
   }
   
   .hero-title {
@@ -130,6 +131,21 @@
     background-color: #fff;
     color: #e62b1e;
     transform: scale(1.1);
+  }
+
+  .top-button {
+    height: 4vh;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+    border-radius: 30px;
+    border: 2px solid #ff1100;
+    width: 200px;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+  }
+  
+  .top-button:hover {
+    background-color: #ff1100; /* Change background on hover */
+    transform: scale(1.1); /* Slightly enlarge the button */
   }
   
  
