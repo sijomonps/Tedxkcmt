@@ -88,10 +88,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to right, #000, #030303);
+    background: linear-gradient(to right, #000000, #000000);
     background-size: cover;
     text-align: center;
     padding: 0 20px;
+    background-image: url(bg.jpg);
   }
   
   .hero-title {
