@@ -250,6 +250,7 @@
     font-family: "Lalezar", serif;
     font-weight: 400;
     font-style: normal;
+    
 }
 .container2-subheading{
     margin: 40px;
@@ -271,4 +272,21 @@
 .ted{
   color: red;
 }
+
+/* Add this CSS for animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
  

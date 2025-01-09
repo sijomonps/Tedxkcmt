@@ -38,8 +38,8 @@
         </div>
     </section>
     <div class="container2">
-        <h1 class="container2-heading">Why should you attend a <span class="ted">TEDx</span> event?</h1>
-        <p class="container2-subheading">TEDx events are a gateway to exploring new ideas and expanding your horizons. I
+        <h1 class="container2-heading heading">Why should you attend a <span class="ted">TEDx</span> event?</h1>
+        <p class="container2-subheading paragraph">TEDx events are a gateway to exploring new ideas and expanding your horizons. I
             t’s an opportunity to listen to speakers who challenge conventional thinking 
             and inspire innovation. Beyond the talks, TEDx events bring together a commun
             ity of curious minds, fostering meaningful conversations and connections. It’
@@ -57,6 +57,24 @@
         </div>
     </section>
 
-    
+    <script>
+        // Create an intersection observer to detect when the heading is in view
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              // Add the 'animate' class to the element when it's in view
+              entry.target.classList.add('animate');
+              observer.unobserve(entry.target); // Stop observing once the animation has been applied
+            }
+          });
+        }, { threshold: 0.5 }); // Trigger when 50% of the element is visible
+      
+        // Target the heading and observe it
+        const heading = document.querySelector('.heading');
+        observer.observe(heading);
+      </script>
+
+    <script src="script.js"></script>
+      
 </body>
 </html>
