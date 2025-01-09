@@ -10,6 +10,11 @@
     color: #fff;
     background-color: #000;
     line-height: 1.6;
+
+    /* font */
+    font-family: "Lalezar", serif;
+    font-weight: 400;
+    font-style: normal;
   }
   
   /* Header Styles */
@@ -104,6 +109,7 @@
     animation-name: move2;
     animation-duration: 2s;
     
+    
   }
   @keyframes move2 {
     from{
@@ -125,8 +131,6 @@
     animation-delay: 1s;
     opacity: 0%;
     animation-fill-mode: forwards;
-    
-
   }
   @keyframes move {
     from{
@@ -175,6 +179,29 @@
     border-radius: 30px;
     transition: background-color 0.3s, transform 0.3s;
     text-decoration: none;
+    position: relative;
+    animation-name: up-animation;
+    animation-duration: 4s;
+    
+    
+    
+  }
+  @keyframes up-animation {
+    0%{
+      opacity: 0%;
+    }
+    50%{
+        top: 100px;
+        opacity: 0%%;
+    } 
+    70%{
+      opacity: 0%;
+    }
+    100%{
+      top: 0px;
+      opacity: 100%;
+    }
+    
   }
   
   .cta-button:hover {
@@ -191,6 +218,10 @@
     border: 2px solid #ff1100;
     width: 200px;
     transition: all 0.3s ease-in-out; /* Smooth transition */
+    
+  }
+  .hometab{
+
   }
   
   .top-button:hover {
@@ -214,14 +245,30 @@
     font-size: 5vh;
     margin-left: 100px;
     margin-top: 100px;
-    font-family: "Rubik Mono One", serif;
+
+    /* font */
+    font-family: "Lalezar", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
+.container2-subheading{
+    margin: 40px;
+    font-size: 3vh;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: gray;
+}
+  
   @media only screen and (max-width: 600px) {
     .container2-heading{
       margin-left: 20px;
       font-size: 30px;
     }
+    .container2-subheading{
+      margin-left: 20px;
+    }
   }
+.ted{
+  color: red;
+}
  
