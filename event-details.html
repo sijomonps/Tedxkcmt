@@ -5,10 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Details</title>
     <link rel="stylesheet" href="tedx.css">
+
+     <!-- Link to Font Awesome for Icons -->
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <!-- Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
 
     <!-- Favicon link-->
   <link rel="icon" href="favicon.png" type="image/png">
@@ -32,8 +43,8 @@
 
     <section class="hero">
         <div>
-            <h1 class="hero-title">Event <span>Details</span></h1>
-            <p class="hero-subtitle">Unlock the world of MIFIT - Grab your ticket tody!</p>
+            <h1 class="hero-title2">miS<span>FIts</span></h1>
+            <p class="hero-subtitle2">Unlock the world of MIFIT - Grab your ticket tody!</p>
             <a href="event-details.html" class="cta-button">Get Your Tickets now</a>
         </div>
     </section>
@@ -46,35 +57,39 @@
             s not just an event; it’s an experience that leaves you motivated and ready to
              take on the world with fresh perspectives.</p>
     </div>
-
     <section class="details">
         <div class="container-last">
             <h2>MISFITS</h2>
-            <p>Date: February 08, 2025</p>
+            <p>Date: March 08, 2025</p>
             <p>Time: 6:00 PM</p>
             <p>Location: XYZ Auditorium</p>
             <p>Description: !</p>
         </div>
     </section>
+    <section class="contact-us">
+        <h2>Contact <span class="ted">Us</span></h2>
+        <p class="contact-us-para">We'd love to hear from you! Connect with us on our social media platforms or drop us an email.</p>
+    
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+            <a href="https://www.instagram.com/tedxkcmtofficial/" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/yourprofile" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/tedxkcmt/posts/?feedView=all" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://x.com/tedxkcmt" target="_blank" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <p>tedxkcmt@gmail.com</p>
+    </section>
 
-    <script>
-        // Create an intersection observer to detect when the heading is in view
-        const observer = new IntersectionObserver((entries, observer) => {
-          entries.forEach(entry => {
-            if (entry.isIntersecting) {
-              // Add the 'animate' class to the element when it's in view
-              entry.target.classList.add('animate');
-              observer.unobserve(entry.target); // Stop observing once the animation has been applied
-            }
-          });
-        }, { threshold: 0.5 }); // Trigger when 50% of the element is visible
-      
-        // Target the heading and observe it
-        const heading = document.querySelector('.heading');
-        observer.observe(heading);
-      </script>
-
-    <script src="script.js"></script>
-      
+    <footer class="footer">
+        <center>© 2025 TEDxKCMT</center>
+      </footer>
 </body>
 </html>

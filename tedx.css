@@ -30,6 +30,7 @@
   }
   .nav-logo{
     height: 50px;
+    margin-right: 0px;
   }
   .container {
     width: 90%;
@@ -63,6 +64,13 @@
   
   .nav-links li {
     margin-left: 20px;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .nav-links li{
+      margin-left: 5px;
+      
+    }
   }
   
   .nav-links a {
@@ -97,12 +105,23 @@
     background-size: cover;
     text-align: center;
     padding: 0 20px;
-    background-image: url(bg.jpg);
+    
     
     
   }
   
   .hero-title {
+    font-size: 14vh;
+    font-weight: 700;
+    position: relative;
+    animation-name: move2;
+    animation-duration: 2s;
+    
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .hero-title2 {
     font-size: 14vh;
     font-weight: 700;
     position: relative;
@@ -132,6 +151,17 @@
     opacity: 0%;
     animation-fill-mode: forwards;
   }
+  .hero-title2 span {
+    color: #e62b1e;
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    opacity: 0%;
+    animation-fill-mode: forwards;
+
+    
+  }
   @keyframes move {
     from{
       left: 100%;
@@ -152,6 +182,22 @@
     position: relative;
     animation-name: sub-title;
     animation-duration: 2s;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+  }
+  .hero-subtitle2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: relative;
+    animation-name: sub-title;
+    animation-duration: 2s;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
   
   }
   @keyframes sub-title {
@@ -165,7 +211,11 @@
       opacity: 100%;
     }
   }
-  
+  @media only screen and (max-width: 600px) {
+    .hero-title{
+      font-size: 90px;
+    }
+  }
   .cta-button {
     display: inline-block;
     margin-top: 20px;
@@ -220,8 +270,15 @@
     transition: all 0.3s ease-in-out; /* Smooth transition */
     
   }
+  
   .hometab{
+    margin-left: 0px;
+    
 
+  }
+  @media only screen and (max-width: 600px) {
+    
+    
   }
   
   .top-button:hover {
@@ -231,12 +288,12 @@
   
  
   .container-last{
-    margin-bottom: 300px;
-    margin-left: 30px;
+    margin-left: 100px;
   }
   .container2{
-    height: 600px;
+    height: 400px;
     background-color: #000;
+    margin-left: 30px;
     
 
   }
@@ -244,7 +301,7 @@
     margin: 40px;
     font-size: 5vh;
     margin-left: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
 
     /* font */
     font-family: "Lalezar", serif;
@@ -253,19 +310,26 @@
     
 }
 .container2-subheading{
-    margin: 40px;
     font-size: 3vh;
     margin-left: 100px;
     margin-top: 50px;
     color: gray;
+    margin-right: 50px;
 }
-  
+  .paragraph{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
   @media only screen and (max-width: 600px) {
     .container2-heading{
       margin-left: 20px;
       font-size: 30px;
     }
     .container2-subheading{
+      margin-left: 20px;
+    }
+    .container-last{
       margin-left: 20px;
     }
   }
@@ -288,5 +352,45 @@
 .animate {
   animation: fadeIn 1.5s ease-in-out;
 }
+.footer{
+  color: grey;
+}
 
- 
+/* contact us css*/
+
+.contact-us {
+  background-color: #000000;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+.contact-us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.contact-us p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-icons a {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.social-icons a:hover {
+  color: #ff6347; /* A warm color for hover effect */
+}
+.social-icons a:focus {
+  outline: none;
+}
+.contact-us-para{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
