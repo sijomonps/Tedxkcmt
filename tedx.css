@@ -6,7 +6,7 @@
   }
   
   body {
-    font-family: 'Poppins', sans-serif;
+    
     color: #fff;
     background-color: #000;
     line-height: 1.6;
@@ -276,10 +276,6 @@
     
 
   }
-  @media only screen and (max-width: 600px) {
-    
-    
-  }
   
   .top-button:hover {
     background-color: #ff1100; /* Change background on hover */
@@ -288,7 +284,13 @@
   
  
   .container-last{
-    margin-left: 100px;
+    margin-left: 130px;
+    font-size: 30px; 
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 200px;
+  
   }
   .container2{
     height: 400px;
@@ -330,40 +332,36 @@
       margin-left: 20px;
     }
     .container-last{
-      margin-left: 20px;
+      margin-left: 40px;
     }
   }
 .ted{
   color: red;
 }
 
-/* Add this CSS for animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-.animate {
-  animation: fadeIn 1.5s ease-in-out;
-}
 .footer{
   color: grey;
 }
 
 /* contact us css*/
-
 .contact-us {
   background-color: #000000;
   color: white;
   padding: 50px 20px;
   text-align: center;
+  
+  
 }
+@media only screen and (max-width: 600px) {
+  .contact-us{
+    height: 300px;
+  }
+  .container2{
+    margin-bottom: 300px;
+  }
+  }
+
 .contact-us h2 {
   font-size: 2rem;
   margin-bottom: 20px;
