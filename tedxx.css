@@ -203,6 +203,10 @@ body {
   height: 400px;
   background-color: #000;
   margin-left: 30px;
+  margin-bottom: 10px;
+}
+.container2-phone{
+  margin-top: 10px;
 }
 
 
@@ -327,9 +331,10 @@ hr.new1 {
 }
 
 /* Media Queries */
+
 @media only screen and (max-width: 600px) {
   body {
-    height: 1px;
+    
   }
 
   .nav-links li {
