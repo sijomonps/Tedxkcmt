@@ -266,6 +266,7 @@ body {
 /* Footer */
 .footer {
   color: grey;
+  margin: 20px;
 }
 .ted{
   color: #ff0000;
@@ -331,7 +332,12 @@ hr.new1 {
 }
 
 /* Media Queries */
-
+@media only screen and (min-height: 812px) and (orientation: portrait){
+  .container2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
 @media only screen and (max-width: 600px) {
   body {
     
@@ -375,6 +381,7 @@ hr.new1 {
   .container-last {
     margin-left: 20px;
     width: 90%;
+    
   }
 
   .contact-us {
