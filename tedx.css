@@ -182,28 +182,33 @@ body {
 .container1 {
   display: flex;
   margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .container1-para{
   font-size: 20px;
-  margin-right: 100px;
+  width: 90vh;
   color: grey;
+  margin-left: 120px;
+  text-align: justify;
 }
 
-.container-last {
+.container1-img {
+  height: 30vw;
+}
+.container-first {
   margin-left: 130px;
   font-size: 30px;
   font-family: "Bebas Neue", serif;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 200px;
   margin-right: 100px;
+  text-align: justify
 }
 
 .container2 {
-  height: 400px;
   background-color: #000;
   margin-left: 30px;
-  margin-bottom: 10px;
 }
 .container2-phone{
   margin-top: 10px;
@@ -228,6 +233,86 @@ body {
   margin-right: 50px;
 }
 
+.container3 {
+  background-color: #000;
+  margin-left: 30px;
+}
+
+.container3-heading {
+  margin: 40px;
+  font-size: 5vh;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: "Lalezar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container3-subheading {
+  font-size: 3vh;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: gray;
+  margin-right: 50px;
+}
+
+.container4 {
+  background-color: #000;
+  margin-left: 30px;
+}
+
+.container4-heading {
+  margin: 40px;
+  font-size: 5vh;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: "Lalezar", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container4-subheading {
+  font-size: 3vh;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: gray;
+  margin-right: 50px;
+}
+
+.container5 {
+  background-color: #000;
+  margin-left: 30px;
+  
+}
+
+.container5-heading {
+  margin: 40px;
+  font-size: 5vh;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: "Lalezar", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+.container5-subheading {
+  font-size: 3vh;
+  margin-left: 100px;
+  margin-top: 50px;
+  color: gray;
+  margin-right: 50px;
+}
+
+/* container main */
+.container-main{
+  border: #ffffff;
+  border-width: 1px;
+  border-style: dashed;
+  border-radius: 20px;
+  margin: 100px;
+  padding-bottom: 50px;
+}
 /* Contact Us */
 .contact-us {
   background-color: #000000;
@@ -272,8 +357,7 @@ body {
   color: #ff0000;
 }
 hr.new1 {
-  border-top: 1px solid red;
-  margin: 50px;
+  border-style: dashed;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -332,17 +416,8 @@ hr.new1 {
 }
 
 /* Media Queries */
-@media only screen and (min-height: 812px) and (orientation: portrait){
-  .container2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  body {
-    
-  }
 
+@media only screen and (max-width: 600px) {
   .nav-links li {
     margin-left: 5px;
   }
@@ -355,18 +430,24 @@ hr.new1 {
     display: block;
     margin-left: 30px;
   }
-
-  .container2-img {
+  .container-first {
+    margin-left: 0px;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .container1-img {
     height: 85vw;
-    margin-bottom: 30px;
-    margin-top: 60px;
   }
 
   .container1-para {
     font-size: 24px;
-    margin-right: 5px;
-    margin-left: 1px;
-    
+    width: 80vw;
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    text-align: justify;
+    margin-right: 0px;
   }
 
   .container2-heading {
@@ -378,10 +459,41 @@ hr.new1 {
     margin-left: 20px;
   }
 
+  .container3-heading {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .container3-subheading {
+    margin-left: 20px;
+  }
+
+  .container4-heading {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .container4-subheading {
+    margin-left: 20px;
+  }
+
+  .container5-heading {
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .container5-subheading {
+    margin-left: 20px;
+  }
   .container-last {
     margin-left: 20px;
     width: 90%;
     
+  }
+  
+  .container-main{
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .contact-us {
@@ -389,18 +501,14 @@ hr.new1 {
   }
 
   .container2 {
-    margin-bottom: 300px;
     margin-top: 0px;
   }
-  .container2-phone{
-    height: 600px;
-    margin-top: 1500px;
-    
-  }
+  
   hr.new1 {
     border-top: 1px solid red;
     margin: 10px;
     margin-left: 100px;
     margin-right: 100px;
   }
+
 }
