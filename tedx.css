@@ -185,6 +185,7 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .container1-para{
   font-size: 20px;
   width: 90vh;
@@ -196,6 +197,7 @@ body {
 .container1-img {
   height: 30vw;
 }
+
 .container-first {
   margin-left: 130px;
   font-size: 30px;
@@ -210,6 +212,7 @@ body {
   background-color: #000;
   margin-left: 30px;
 }
+
 .container2-phone{
   margin-top: 10px;
 }
@@ -313,6 +316,7 @@ body {
   margin: 100px;
   padding-bottom: 50px;
 }
+
 /* Contact Us */
 .contact-us {
   background-color: #000000;
@@ -353,9 +357,11 @@ body {
   color: grey;
   margin: 20px;
 }
+
 .ted{
   color: #ff0000;
 }
+
 hr.new1 {
   border-style: dashed;
   margin-left: 200px;
@@ -430,11 +436,13 @@ hr.new1 {
     display: block;
     margin-left: 30px;
   }
+
   .container-first {
     margin-left: 0px;
     text-align: center;
     margin-right: 20px;
   }
+
   .container1-img {
     height: 85vw;
   }
