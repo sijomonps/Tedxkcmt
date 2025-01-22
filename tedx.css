@@ -160,6 +160,7 @@ body {
   background-color: #fff;
   color: #e62b1e;
   transform: scale(1.1);
+  box-shadow: 0 0 90px #fff;
 }
 
 /* Buttons */
@@ -176,6 +177,7 @@ body {
 .top-button:hover {
   background-color: #ff1100;
   transform: scale(1.1);
+  box-shadow: 0 0 90px #fff;
 }
 
 /* Containers */
