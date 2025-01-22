@@ -196,6 +196,7 @@ body {
 
 .container1-img {
   height: 30vw;
+  border-radius: 20px;
 }
 
 .container-first {
@@ -237,11 +238,11 @@ body {
 }
 
 .container3 {
-  background-color: #000;
   margin-left: 30px;
 }
 
 .container3-heading {
+  
   margin: 40px;
   font-size: 5vh;
   margin-left: 100px;
@@ -260,7 +261,6 @@ body {
 }
 
 .container4 {
-  background-color: #000;
   margin-left: 30px;
 }
 
@@ -283,7 +283,6 @@ body {
 }
 
 .container5 {
-  background-color: #000;
   margin-left: 30px;
   
 }
@@ -309,6 +308,7 @@ body {
 
 /* container main */
 .container-main{
+  background-color: #1E1E1E; 
   border: #ffffff;
   border-width: 1px;
   border-style: dashed;
