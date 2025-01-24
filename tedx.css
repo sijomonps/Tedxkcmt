@@ -244,7 +244,6 @@ body {
 }
 
 .container3-heading {
-  
   margin: 40px;
   font-size: 5vh;
   margin-left: 100px;
@@ -352,6 +351,22 @@ body {
 
 .social-icons a:hover {
   color: #ff6347;
+}
+
+/* location*/
+.location-img{
+  height: 10vw;
+  border-radius: 50px;
+}
+
+.location-img:hover{
+  transform: scale(1.1);
+}
+
+.location-h1{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /* Footer */
@@ -519,6 +534,17 @@ hr.new1 {
     margin: 10px;
     margin-left: 100px;
     margin-right: 100px;
+  }
+
+  .location-img{
+    height: 30vw;
+    border-radius: 50px;
+  }
+  
+  .location-h1{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
   }
 
 }
