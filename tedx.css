@@ -93,6 +93,7 @@ body {
   background-size: cover;
   text-align: center;
   padding: 0 20px;
+  
 }
 
 .hero-title{
@@ -111,6 +112,7 @@ body {
   position: relative;
   animation-name: move2;
   animation-duration: 2s;
+  margin-top: 100px;
 }
 
 .hero-title span,
@@ -126,7 +128,7 @@ body {
 
 .hero-subtitle,
 .hero-subtitle2 {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: 2px;
@@ -361,6 +363,7 @@ body {
 
 .location-img:hover{
   transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
 
 .location-h1{
@@ -383,6 +386,22 @@ hr.new1 {
   border-style: dashed;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.scroll-icon{
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  animation-name: move2;
+  animation-duration: 15s;
+  color: grey;
+}
+
+.scroll-p{
+  font-size: 20px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 4;
+  font-style: normal;
 }
 
 /* Animations */
