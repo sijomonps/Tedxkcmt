@@ -566,4 +566,10 @@ hr.new1 {
     font-size: 14px;
   }
 
+  .footer{
+    height: 2px;
+    margin-bottom: 0px;
+    
+  }
+
 }
