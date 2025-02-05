@@ -372,6 +372,12 @@ body {
   font-size: 20px;
 }
 
+.email{
+  color: white;
+  text-decoration: none;
+}
+
+
 /* Footer */
 .footer {
   color: grey;
