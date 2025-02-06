@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #000000;
+    background-image: url(Images/Bg.png);
+    background-size: cover;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -10,10 +11,10 @@ body {
 }
 
 .form {
-    background-color: rgb(41, 40, 40);
+    background-color: rgb(0, 0, 0);
     padding: 40px;
     border-radius: 10px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.644);
+    box-shadow: 0 0 20px rgba(167, 34, 34, 0.432);
     max-width: 600px;
     width: 100%;
 }
