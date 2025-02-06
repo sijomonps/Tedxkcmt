@@ -208,6 +208,7 @@ body {
   color: grey;
   margin-left: 120px;
   text-align: justify;
+  margin-top: 40px;
 }
 
 .para-container1{
@@ -240,7 +241,6 @@ body {
 
 .span-sub{
   margin-left: 10px;
-  color: #e62b1e;
   font-family: "Poppins", serif;
   font-weight: 600;
   font-style: normal;
@@ -441,6 +441,7 @@ hr.new1 {
   font-family: "Bebas Neue", serif;
   font-weight: 4;
   font-style: normal;
+  color: #ffffffaf;
 }
 
 /* Form */
@@ -564,6 +565,7 @@ hr.new1 {
     margin-left: 10px;
     text-align: justify;
     margin-right: 0px;
+    letter-spacing: -1px;
   }
 
   .container2-heading {
