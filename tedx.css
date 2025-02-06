@@ -89,11 +89,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #000000, #000000);
+  background-image: url(/Images/Bg.png);
   background-size: cover;
   text-align: center;
   padding: 0 20px;
-  
 }
 
 .hero-title{
@@ -468,6 +467,11 @@ hr.new1 {
 @media only screen and (max-width: 600px) {
   .nav-links li {
     margin-left: 5px;
+  }
+  
+  .hero{
+    background-size: cover;
+    background-position-x: center;
   }
 
   .hero-title {
