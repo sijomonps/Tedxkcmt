@@ -32,6 +32,19 @@ body {
   align-items: center;
 }
 
+.nav-elements{
+  background-color: black;
+  border: none;
+  color: white;
+  margin-right: 50px;
+  visibility: visible;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.drop-down-button{
+  visibility: hidden;
+}
+
 .container {
   width: 90%;
   max-width: 1200px;
@@ -475,6 +488,28 @@ hr.new1 {
     margin-left: 5px;
   }
   
+  .navbar{
+    display: flex;
+    margin-left: 0px;
+  }
+
+  .nav-elements{
+    display: none;
+    
+  }
+
+  .icons{
+    margin-left: 0px;
+  }
+
+  .dropdown{
+    text-decoration: none;
+  }
+
+  .drop-down-button{
+    visibility: visible;
+  }
+
   .hero{
     background-size: cover;
     background-position-x: center;
