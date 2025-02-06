@@ -409,6 +409,12 @@ hr.new1 {
   font-style: normal;
 }
 
+/* Form */
+.form{
+  text-align: center;
+  margin-top: 300px;
+}
+
 /* Animations */
 @keyframes move2 {
   from {
