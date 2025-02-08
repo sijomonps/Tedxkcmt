@@ -28,8 +28,7 @@ Building this website has been an exciting experience! I explored:
 Here’s a sneak peek of the website:  
 ![Screenshot 2025-01-16 212405](https://github.com/user-attachments/assets/6efc18f4-93b4-4853-bbbe-fc0817ee23af)  
 ![Screenshot 2025-01-16 212438](https://github.com/user-attachments/assets/a61617bd-b5ee-42bb-9523-b875339754d7)  
-![Screenshot 2025-01-16 212507](https://github.com/user-attachments/assets/3fa48a22-6f02-4bb2-a39f-ee403e4799bb)  
-![Screenshot 2025-01-16 212522](https://github.com/user-attachments/assets/175d4672-d0b8-4731-b807-d2b178cf566c)
+
 
 ## 🙌 Acknowledgments
 - Special thanks to **YouTube creators** for their tutorials on CSS animations.
