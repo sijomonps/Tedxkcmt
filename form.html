@@ -1,22 +1,66 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="form.css">
+    <title>Secure Payment Gateway</title>
+    <link rel="stylesheet" href="form.css"> 
+
+    <!-- Favicon Link -->
+    <link rel="icon" href="./Images/rupe.webp" type="image/png">
 </head>
 <body>
-    <div class="form">
-        <form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname"><br>
-            <label for="email">Email</label><br>
-            <input type="email"><br>
-            <input class="cta-button" type="submit">
-          </form>        
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="logo">PAYMENT</a>
+        <div class="nav-links">
+            <a href="./index.html">Home</a>
+            <a href="./event-details.html#event-details-section">About</a>
+            <a href="./event-details.html#contact-us-section">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Payment Section -->
+    <div class="payment-container">
+        <div class="payment-heading">
+            <h1>Secure Payment Gateway</h1>
+            <p>Safe and Fast Transactions</p>
+        </div>
+
+        <div class="payment-form">
+            <form>
+                <!-- Card Information -->
+                <div class="card-icons">
+                    <img src="./images/visa.png" alt="Visa" class="card-icon">
+                    <img src="./images/mastercard.png" alt="Mastercard" class="card-icon">
+                    <img src="./images/rupay.png" alt="Amex" class="card-icon">
+                </div>
+
+                <div class="form-row">
+                    <div>
+                        <label>.</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div>
+                        <label>.</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <label>.</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+                    
+                </div>
+
+                <!-- Amount Section -->
+                <div class="amount-section">
+                    <div class="amount">₹ 1,099.00</div>
+                    <p>Total Payment Amount</p>
+                </div>
+
+                <button class="cta-button" type="submit">PAY NOW</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
-

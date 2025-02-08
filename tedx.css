@@ -1,3 +1,15 @@
+@font-face {
+  font-family: poppins;
+  src: url(font/poppins.medium.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: poppins-black;
+  src: url(font/poppins.black.ttf);
+  font-weight: bold;
+}
+
 /* General Styles */
 * {
   margin: 0;
@@ -9,9 +21,8 @@ body {
   color: #fff;
   background-color: #000;
   line-height: 1.6;
-  font-family: "Lalezar", serif;
-  font-weight: 400;
-  font-style: normal;
+   /*font*/
+   
 }
 
 /* Header Styles */
@@ -102,7 +113,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(Images/Bg.png);
+  background-image: url(Images/Bg.webp);
   background-size: cover;
   text-align: center;
   padding: 0 20px;
@@ -114,10 +125,12 @@ body {
   position: relative;
   animation-name: move2;
   animation-duration: 2s;
+  /*font*/
   font-family: "Dela Gothic One", serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .hero-title2 {
   font-size: 14vh;
   font-weight: 700;
@@ -125,6 +138,9 @@ body {
   animation-name: move2;
   animation-duration: 2s;
   margin-top: 100px;
+  /*font*/
+  font-family: poppins-black;
+
 }
 
 .hero-title span,
@@ -147,8 +163,9 @@ body {
   position: relative;
   animation-name: sub-title;
   animation-duration: 2s;
-  font-family: "Bebas Neue", serif;
-  font-weight: 400;
+   /*font*/
+   font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -168,6 +185,7 @@ body {
   position: relative;
   animation-name: up-animation;
   animation-duration: 4s;
+  font-family: poppins-black;
 }
 
 .cta-button:hover {
@@ -186,6 +204,8 @@ body {
   border: 2px solid #ff1100;
   width: 200px;
   transition: all 0.3s ease-in-out;
+  font-family: poppins;
+  
 }
 
 .top-button:hover {
@@ -212,8 +232,9 @@ body {
 }
 
 .para-container1{
-  font-family: "Poppins", serif;
-  font-weight: 600;
+   /*font-semibold*/
+   font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -225,25 +246,34 @@ body {
 .container-first {
   margin-left: 130px;
   font-size: 30px;
-  font-family: "Bebas Neue", serif;
-  font-weight: 400;
-  font-style: normal;
+  
   margin-right: 100px;
   text-align: justify
 }
 
-.font-sub{
-  font-family: "Dela Gothic One", serif;
-  font-weight: 400;
+.heading-details{
+  font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
-  font-size: 20px;
+  color: white;
+}
+
+.font-sub{
+  /*font*/
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .span-sub{
   margin-left: 10px;
-  font-family: "Poppins", serif;
-  font-weight: 600;
+  color: gray;
+  font-size: 25px;
+   /*font-semibold*/
+   font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
+   
 }
 
 .container2 {
@@ -261,8 +291,9 @@ body {
   font-size: 5vh;
   margin-left: 100px;
   margin-top: 50px;
-  font-family: "Lalezar", serif;
-  font-weight: 400;
+   /*font*/
+   font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -272,6 +303,10 @@ body {
   margin-top: 50px;
   color: gray;
   margin-right: 50px;
+  /*font-semi bold*/
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .container3 {
@@ -283,8 +318,9 @@ body {
   font-size: 5vh;
   margin-left: 100px;
   margin-top: 50px;
-  font-family: "Lalezar", serif;
-  font-weight: 400;
+  /*font*/
+  font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -294,6 +330,7 @@ body {
   margin-top: 50px;
   color: gray;
   margin-right: 50px;
+  
 }
 
 .container4 {
@@ -305,8 +342,9 @@ body {
   font-size: 5vh;
   margin-left: 100px;
   margin-top: 50px;
-  font-family: "Lalezar", serif;
-  font-weight: 400;
+   /*font*/
+   font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
@@ -328,10 +366,10 @@ body {
   font-size: 5vh;
   margin-left: 100px;
   margin-top: 50px;
-  font-family: "Lalezar", serif;
-  font-weight: 400;
-  font-style: normal;
-  
+   /*font*/
+   font-family: "Poppins",serif;
+   font-weight: 100;
+   font-style: normal;
 }
 
 .container5-subheading {
@@ -359,6 +397,15 @@ body {
   color: white;
   padding: 50px 20px;
   text-align: center;
+  font-style: normal;
+  /*font-bold*/
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.contact-us-h1{
+  font-family: poppins-black;
 }
 
 .contact-us h2 {
@@ -369,6 +416,10 @@ body {
 .contact-us p {
   font-size: 1.1rem;
   margin-bottom: 30px;
+  /*font-semi bold*/
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .social-icons {
@@ -438,8 +489,8 @@ hr.new1 {
 
 .scroll-p{
   font-size: 20px;
-  font-family: "Bebas Neue", serif;
-  font-weight: 4;
+  font-family: "Poppins", serif;
+  font-weight: 100;
   font-style: normal;
   color: #ffffffaf;
 }
@@ -541,6 +592,18 @@ hr.new1 {
     font-size: 90px;
   }
 
+  .hero-title2{
+    font-size: 90px;
+  }
+
+  .hero-subtitle{
+    font-size: 15px;
+  }
+
+  .hero-subtitle2{
+    font-size: 15px;
+  }
+  
   .container1 {
     display: block;
     margin-left: 30px;
@@ -548,7 +611,7 @@ hr.new1 {
 
   .container-first {
     margin-left: 0px;
-    text-align: center;
+    text-align: left;
     margin-right: 20px;
   }
 
@@ -563,9 +626,7 @@ hr.new1 {
     font-weight: 400;
     font-style: normal;
     margin-left: 10px;
-    text-align: justify;
-    margin-right: 0px;
-    letter-spacing: -1px;
+    text-align: left;
   }
 
   .container2-heading {
@@ -575,6 +636,7 @@ hr.new1 {
 
   .container2-subheading {
     margin-left: 20px;
+    font-size: 25px;
   }
 
   .container3-heading {
